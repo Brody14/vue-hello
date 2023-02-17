@@ -7,7 +7,13 @@
     data() {
       return {
         message: "Quando inizi Vue ma è Venerdì",
-        src: './img/venerdi.jpg'
+        src: './img/venerdi.jpg',
+        titleStyle: {
+          color: 'red',
+          fontSize: '40px',
+          textTransform: 'uppercase',
+        },
+        imgClass: 'title__img'
       }
     }
   }).mount('#app')
