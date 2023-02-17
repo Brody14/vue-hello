@@ -6,7 +6,7 @@ console.log('Milos Teodosic');
   createApp({
     data() {
       return {
-        message: 'Hello Vue!'
+        message: "E' venerdì"
       }
     }
   }).mount('#app')
